@@ -6,14 +6,14 @@ This study presents an approach for attributing complete time series during extr
 ## Contents of this repository
 
 ### `epi_output/`
-Contains the results of the **Extremal Pattern Index (EPI)** analysis based on CMIP6 simulations.
+Contains the results of the **Extremal Pattern Index (EPI)** analysis based on CMIP6 simulations and ERA5.
 The output is organized by spatial region:
 
 - **`reg_16/`** – Results for region 16 (Central Europe)
 - **`reg_17/`** – Results for region 17 (Southern Europe)
 - **`reg_19/`** – Results for region 19 (Northern Europe)
 
-Each subfolder contains NetCDF files (`.nc`) with the EPI computed from CMIP6 
+Each subfolder contains subfolders of the different models, which conteain NetCDF files (`.nc`) with the EPI computed from CMIP6 
 simulations under natural-only (`nat`) and anthropogenic + natural (`hist`) forcing scenarios. 
 
 ## Workflow notes & Computational requirements.
