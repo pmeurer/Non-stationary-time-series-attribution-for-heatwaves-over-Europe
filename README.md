@@ -15,8 +15,6 @@ The output is organized by spatial region:
 
 Each subfolder contains NetCDF files (`.nc`) with the EPI computed from CMIP6 historical 
 simulations under natural-only (`nat`) and anthropogenic + natural (`hist`) forcing scenarios. 
-The files follow the naming convention:
-
 
 ## Workflow notes & Computational requirements.
 
