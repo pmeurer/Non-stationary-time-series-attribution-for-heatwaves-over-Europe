@@ -34,7 +34,6 @@ Each subfolder contains subfolders for the different CMIP6 models, which contain
 (`.nc`) with the EPI computed from CMIP6 simulations under natural-only (`nat`) and 
 anthropogenic + natural (`hist`) forcing scenarios.
 
-### `markov_output/`
 Due to file size constraints, the Markov model output files are not included in this repository.
 The results can be fully reproduced by running the provided Jupyter Notebook using the data 
 in `epi_output/`. Notebooks for visualisation can be requested from the authors.
