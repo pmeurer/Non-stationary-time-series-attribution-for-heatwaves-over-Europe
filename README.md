@@ -13,7 +13,7 @@ The output is organized by spatial region:
 - **`reg_17/`** – Results for region 17 (Southern Europe)
 - **`reg_19/`** – Results for region 19 (Northern Europe)
 
-Each subfolder contains NetCDF files (`.nc`) with the EPI computed from CMIP6 historical 
+Each subfolder contains NetCDF files (`.nc`) with the EPI computed from CMIP6 
 simulations under natural-only (`nat`) and anthropogenic + natural (`hist`) forcing scenarios. 
 
 ## Workflow notes & Computational requirements.
