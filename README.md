@@ -49,9 +49,7 @@ No additional data download is necessary.
 
 ## Workflow notes & Computational requirements
 
-To ensure reproducibility, all relevant scripts are available as separate files.
-The data is provided in standardized formats (e.g., NetCDF), which can be used seamlessly 
-across all tools.
+To ensure reproducibility, all relevant steps are available as jupyter notebook.
 
 The software versions used to run the analyses are the following:
 
