@@ -32,7 +32,7 @@ and ERA5. The output is organized by spatial region:
 
 Each subfolder contains subfolders for the different CMIP6 models, which contain NetCDF files 
 (`.nc`) with the EPI computed from CMIP6 simulations under natural-only (`nat`) and 
-anthropogenic + natural (`hist`) forcing scenarios.
+anthropogenic + natural (`hist`) forcing scenarios. 
 
 Due to file size constraints, the Markov model output files are not included in this repository.
 The results can be fully reproduced by running the provided Jupyter Notebook using the data 
