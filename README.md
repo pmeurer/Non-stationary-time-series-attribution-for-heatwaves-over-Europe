@@ -37,7 +37,7 @@ and anthropogenic + natural (`hist`) forcing scenarios, as well as from ERA5 rea
 ### Markov model output
 Due to file size constraints, the Markov model output files are not included in this repository.
 The results can be fully reproduced by running `attribution_analysis.ipynb` using the data 
-in `epi_output/`. The visualisation notebook can be requested from the authors.
+in `epi_output/`.
 
 ### Jupyter Notebooks
 
@@ -45,7 +45,7 @@ in `epi_output/`. The visualisation notebook can be requested from the authors.
   estimation of the non-stationary Markov model. Produces the Markov output for all 9 CMIP6 
   models and all three regions.
 - **`visualisation.ipynb`** – Loads the fitted model output and ERA5 data and produces the 
-  main result figures. Available from the authors on request.
+  main result figures.
 
 All input data required to run the notebooks is provided in `epi_output/`.
 No additional data download is necessary.
