@@ -30,26 +30,31 @@ and ERA5. The output is organized by spatial region:
 - **`reg_17/`** – Results for region 17 (Southern Europe)
 - **`reg_19/`** – Results for region 19 (Northern Europe)
 
-Each subfolder contains subfolders for the different CMIP6 models, which contain NetCDF files 
-(`.nc`) with the EPI computed from CMIP6 simulations under natural-only (`nat`) and 
-anthropogenic + natural (`hist`) forcing scenarios. 
+Each subfolder contains subfolders for the different CMIP6 models and ERA5, which contain 
+NetCDF files (`.nc`) with the EPI computed from CMIP6 simulations under natural-only (`nat`) 
+and anthropogenic + natural (`hist`) forcing scenarios, as well as from ERA5 reanalysis data.
 
+### Markov model output
 Due to file size constraints, the Markov model output files are not included in this repository.
-The results can be fully reproduced by running the provided Jupyter Notebook using the data 
-in `epi_output/`. Notebooks for visualisation can be requested from the authors.
+The results can be fully reproduced by running `attribution_analysis.ipynb` using the data 
+in `epi_output/`. The visualisation notebook can be requested from the authors.
 
-### Jupyter Notebook
-The complete analysis pipeline is provided as a Jupyter Notebook:
+### Jupyter Notebooks
 
-- **`attribution_analysis.ipynb`** – Contains all steps from data loading to final estimation 
-of the Markov model.
+- **`attribution_analysis.ipynb`** – Full analysis pipeline from data loading to final 
+  estimation of the non-stationary Markov model. Produces the Markov output for all 9 CMIP6 
+  models and all three regions.
+- **`visualisation.ipynb`** – Loads the fitted model output and ERA5 data and produces the 
+  main result figures. Available from the authors on request.
 
-All input data required to run the notebook is provided in `epi_output/`. 
+All input data required to run the notebooks is provided in `epi_output/`.
 No additional data download is necessary.
 
 ## Workflow notes & Computational requirements
 
-To ensure reproducibility, all relevant steps are available as jupyter notebook.
+To ensure reproducibility, all relevant steps are documented as Jupyter Notebooks.
+The core functions are provided in `markov_functions.py`, which is shared between the 
+analysis and visualisation notebooks.
 
 The software versions used to run the analyses are the following:
 
